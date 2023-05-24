@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+/* Variables */ 
+
+$fuentePrincipal: 'Playfair Display', serif;
+
+/* ---------- */            //786px
+
+.btnGral{
+    background-color: #000;
+    color: #fff;
+}
+
+*{
+    font-family: $fuentePrincipal;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 1400px;
+}
+
+/* Header */
+
+header{
+    width: 1400px;
+    height: 140px;
+    margin: 0;
+    background-color: rgb(236, 227, 227);
+
+    .h1Header{
+        font-size: 60px;
+        padding-left: 100px;
+        padding-top: 30px;
+        margin: 0;    
+    }
+}
+
+/* Barra de navegación */ 
+
+.navBar{
+    border-top: 1px solid #000;
+    width: 1400px;
+
+    .ulNavBar{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+        li{
+            list-style: none;
+            font-size: 30px;
+
+            a{
+                text-decoration: none;
+                color: #000;
+            }
+        }
+    }
+
+
+/* Imagen Carrito NavBar */
+
+    .imgCartWidget{
+        height: 45px;
+        width: 45px;
+    }
+
+/* Home */ 
+
+.divHome{
+    height: 1100px;
+    width: 1400px;
+}
+
+.divHomeSecundario{
+    padding-left: 40px;
+}
+
+.divPHome{
+    width: 950px;
+    padding-left: 200px;
+}
+
+.h3Home{
+    font-size: 30px;
+}
+
+.pHome{
+    border: 1px solid #000;
+    padding: 15px;
+}
+
+.btnHome{
+    padding-top: 17px;
+    padding-left: 550px;
+}
+
+/* ItemList */
+
+.divItemList{
+    width: 1400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+/* Item  */
+
+.itemContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #000;
+    margin: 15px;
+    padding: 15px;
+}
+
+.h1Item{
+    font-size: 20px;
+}
+
+.imgItem{
+    width: 250px;
+    height: 250px;
+}
+
+.divBtnItem{
+    padding-bottom: 10px;
+}
+
+.btnItem{
+    background-color: #000;
+    color: #fff;
+}
+
+/* Footer */ 
+
+footer{
+    border-top: 1px solid #000; 
+    background-color: rgb(236, 227, 227);
+    width: 1400px;
+    height: 230px;
+    margin-top: 30px;
+}
+
+.divAboutContacto{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.h3Footer{
+    font-size: 30px;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.ulRedes{
+    display: flex;
+    padding: 0;
+    justify-content: space-evenly;
+    
+    .liRedes{
+        list-style: none;
+        padding: 4px;
+    }
+}
+
+.divDerechos{
+    text-align: center;
+    font-size: 16px;
+    padding-top: 20px;
+}
+
+.ulPrincipalFooter{
+
+    padding: 0;
+    margin: 0;
+    font-size: 17px;
+
+    li{
+        list-style: none;
+    }
+}
+
+.divContacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ItemDetail */
+
+.itemDetailPrincipal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* ItemCount */
+
+.divAñadir{
+    padding-top: 20px;
+}
+
+.btnAumenoDecrement{
+    background-color: #000;
+    color: #fff;
+}
+
+.cantidad{
+    padding-left: 10px;
+}
+
+.btnAgrgarProd{
+    background-color: #000;
+    color: #fff;
+}
+
+/* Card */ 
+
+.h1Card{
+    font-size: 30px;
+}
+
+.imgCard{
+    width: 250px;
+    height: 250px;
+}
+
+/* MapCart */   
+
+.cartContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.divColumn1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+.divColumn2{
+    padding-left: 200px;
+}
+
+.divBtnClear{
+    padding-top: 20px;
+}
+
+.divColumn3{
+    border-top: 1px solid #000;
+    padding: 30px;
+    text-align: center;
+}
+
+.btnMapCart{
+    background-color: #000;
+    color: #fff;
+}
+
+.sectionColumn3{
+    padding-top: 30px;
+}
+
+.btnContinuar{
+    font-size: 30px;
+}
+
+.precioTotal{
+    font-size: 40px;
+}
+
+/* Formulario */ 
+
+.sectionFormulario{
+    text-align: center;
+}
+
+.divBtnFrom{
+    padding-top: 10px;
+}
+
+.btnFinalizar{
+    background-color: #000;
+    color: #fff;
+}
+
+.h4Formulario{
+    color: red;
+}
+
+.divCamposForm{
+    font-size: 20px;
+}
+
+.input-form{
+    font-size: 20px;
+}
+
+.message-form{
+    font-size: 20px;
+}
+
+/* Cart */ 
+
+.divCarritoVacio{
+    text-align: center;
+    padding: 20px;
+
+    .h2CarritoVacio{
+        font-size: 40px;
+        padding-bottom: 20px;
+    }
+}
+
+/* Detalle */ 
+
+.divDetalle{
+    text-align: center;
+    padding: 50px;
+
+    h2{
+        font-size: 40px;
+    }
+
+    p{
+        font-size: 20px;
+    }
+}
