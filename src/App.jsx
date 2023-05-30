@@ -11,7 +11,9 @@ import Cart from './Routes/Cart/Cart'
 import ContextProvider from './context/CartContext'
 import Form from './Routes/Form/Form'
 import Detalle from './Routes/Detalle/Detalle'
-
+import MetodoPago from './components/MetodoPago/MetodoPago'
+import Envio from './components/Envio/Envio'
+import Locales from './components/Locales/Locales'
 
 function App() {
 
@@ -28,6 +30,9 @@ function App() {
               <Route path='/cart' element={<Cart/>}/>
               <Route path='/form' element={<Form/>}/>
               <Route path='/detalle' element={<Detalle/>}/>
+              <Route path='/metodos-de-pago' element={<MetodoPago/>}/>
+              <Route path='/metodos-de-envios' element={<Envio/>}/>
+              <Route path='nuestros-locales' element={<Locales/>}/>
             </Routes>
             <Footer/>
           </ContextProvider>

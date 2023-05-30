@@ -42,10 +42,12 @@ header{
 .navBar{
     border-top: 1px solid #000;
     width: 1400px;
+    height: 75px;
 
     .ulNavBar{
         display: flex;
         justify-content: space-evenly;
+        padding-top: 10px;
     }
 
         li{
@@ -57,6 +59,32 @@ header{
                 color: #000;
             }
         }
+    }
+
+    /* DarkMode */
+
+    .navBarDark{
+        background-color: #000;
+        color: #fff;
+        width: 1400px;
+        height: 75px;
+
+        .ulNavBarDark{
+            display: flex;
+        justify-content: space-evenly;
+        padding-top: 10px;
+
+        li{
+            list-style: none;
+            font-size: 30px;
+
+            a{
+                text-decoration: none;
+                color: #fff;
+            }
+        }
+        }
+
     }
 
 
@@ -76,15 +104,18 @@ header{
 
 .divHomeSecundario{
     padding-left: 40px;
+    padding-bottom: 30px;
 }
 
 .divPHome{
     width: 950px;
     padding-left: 200px;
+    padding-top: 30px;
 }
 
 .h3Home{
     font-size: 30px;
+    padding-top: 15px;
 }
 
 .pHome{
@@ -93,8 +124,20 @@ header{
 }
 
 .btnHome{
-    padding-top: 17px;
+    padding-top: 35px;
     padding-left: 550px;
+}
+
+/* Home DarkMode */ 
+
+.divHomeDark{
+    background-color: #000;
+    color: #fff;
+}
+
+.btnHomeDark{
+    background-color: #fff;
+    color: #000;
 }
 
 /* ItemList */
@@ -105,6 +148,18 @@ header{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+
+/* ItemList DarkMode */ 
+
+.divItemListDark{
+    width: 1400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #000;
+    color: #fff;
 }
 
 /* Item  */
@@ -136,6 +191,37 @@ header{
     color: #fff;
 }
 
+/* Item DarkMode */
+
+.itemContainerDark{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #000;
+    margin: 15px;
+    padding: 15px;
+    background-color: #fff;
+    color: #000;
+}
+
+.h1ItemDark{
+    font-size: 20px;
+}
+
+.imgItemDark{
+    width: 250px;
+    height: 250px;
+}
+
+.divBtnItemDark{
+    padding-bottom: 10px;
+}
+
+.btnItemDark{
+    background-color: #fff;
+    color: #000;
+}
+
 /* Footer */ 
 
 footer{
@@ -143,7 +229,6 @@ footer{
     background-color: rgb(236, 227, 227);
     width: 1400px;
     height: 230px;
-    margin-top: 30px;
 }
 
 .divAboutContacto{
@@ -172,7 +257,7 @@ footer{
 .divDerechos{
     text-align: center;
     font-size: 16px;
-    padding-top: 20px;
+    padding-top: 40px;
 }
 
 .ulPrincipalFooter{
@@ -180,6 +265,10 @@ footer{
     padding: 0;
     margin: 0;
     font-size: 17px;
+
+    a{
+        color: #000;
+    }
 
     li{
         list-style: none;
@@ -199,6 +288,11 @@ footer{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    height: 400px;
+}
+
+.divCardDetail{
+    text-align: center;
 }
 
 /* ItemCount */
@@ -246,6 +340,7 @@ footer{
     flex-direction: row;
     align-items: center;
     text-align: center;
+    padding-top: 50px;
 }
 
 .divColumn2{
@@ -253,7 +348,7 @@ footer{
 }
 
 .divBtnClear{
-    padding-top: 20px;
+    padding-top: 5px;
 }
 
 .divColumn3{
@@ -277,16 +372,27 @@ footer{
 
 .precioTotal{
     font-size: 40px;
+    padding-bottom: 20px;
 }
 
 /* Formulario */ 
 
 .sectionFormulario{
     text-align: center;
+    height: 650px;
+    padding-top: 100px;
+}
+
+.h2Formulario{
+    padding-bottom: 30px;
 }
 
 .divBtnFrom{
     padding-top: 10px;
+}
+
+.spanForm{
+    color: red;
 }
 
 .btnFinalizar{
@@ -296,6 +402,7 @@ footer{
 
 .h4Formulario{
     color: red;
+    padding-top: 30px;
 }
 
 .divCamposForm{
@@ -335,4 +442,131 @@ footer{
     p{
         font-size: 20px;
     }
+}
+
+.ulDetalle{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* Nuestros Locales */ 
+
+.containerLocales{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.sectionLocales{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid #000;
+    height: 300px;
+    width: 550px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    background-color: rgb(236, 227, 227);
+
+    .divLocales1{
+        border-bottom: 1px solid #000;
+    }
+    
+    .divLocales3{
+        border-top: 1px solid #000;
+    }
+    
+    .h2Locales{
+        font-size: 40px;
+    }
+    
+    .h3Locales{
+        font-size: 30px;
+    }
+
+    .h4Locales{
+        font-size: 22px;
+    }
+}
+
+/* Métodos de pago */ 
+
+.sectionMetodoPago{
+    height: 700px;
+
+    .containerMetodoPago{
+        text-align: center;
+        padding-bottom: 40px;
+        padding-top: 30px;
+    }
+
+    .divSecuMetodoPago{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+}
+
+
+.sectionCardMetodoPago{
+    border: 1px solid #000;
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    .divSecundario{
+        text-align: center;
+    }
+    
+    #div1MetodoPago{
+        padding-bottom: 30px;
+    }
+
+    #div2MetodoPago{
+        border-top: 1px solid #000;
+    }
+
+    #div3MetodoPago{
+        border-top: 1px solid #000;
+        padding-top: 30px;
+    }
+
+        .h2MetodoPago{
+            font-size: 60px;
+        }
+
+        .h3MetodoPago{
+            font-size: 25px;
+        }
+        
+        .h4MetodoPago{
+            font-size: 18px;
+            padding-bottom: 30px;
+        }
+
+        .h5MetodoPago{
+
+            font-size: 16px;
+        }
+
+            .imgCardMetodoPago1{
+            width: 70px;
+            height: 70px;
+            }
+        
+            .imgCardMetodoPago2{
+            height: 40px;
+            width: 75px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            }
 }

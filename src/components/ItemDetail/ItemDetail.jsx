@@ -15,7 +15,7 @@ const ItemDetail = ({data}) => {
 
     return (
         <div className='itemDetailPrincipal'>
-            <div>
+            <div className='divCardDetail'>
                 <Card data={data}/>
             </div>
             <div >

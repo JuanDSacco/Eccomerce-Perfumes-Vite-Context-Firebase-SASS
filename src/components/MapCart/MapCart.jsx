@@ -16,7 +16,7 @@ const MapCart = ({cart, removeProduct, eliminarPorUnidad, clearCart, totalPrice}
                             <h3>Unidades: {data.cantidad}</h3> 
                             <button className='btnMapCart' disable={data.cantidad <= 0 && removeProduct(data.id)} onClick={() => eliminarPorUnidad (data.id)}>Eliminar Unidad -</button>
                             <div className='divBtnClear'>
-                                <button className='btnMapCart' onClick={clearCart}>Vaciar carrito</button>
+                                <Button name='Vaciar carrito' onClick={clearCart}/>
                             </div>
                         </div>
                     </div>
