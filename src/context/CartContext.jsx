@@ -8,8 +8,6 @@ const ContextProvider = ({children}) => {
 
     // Hooks
 
-    const [mode, setMode] = useState(false); // DarkMode
-
     const [cart,setCart] = useState([]); // Productos
     
     // Funciones
@@ -55,8 +53,6 @@ const ContextProvider = ({children}) => {
             };
 
     const ExportsContext = {
-        mode:mode,
-        setMode:setMode,
         cart:cart,
         totalPrice:totalPrice,
         clearCart:clearCart,

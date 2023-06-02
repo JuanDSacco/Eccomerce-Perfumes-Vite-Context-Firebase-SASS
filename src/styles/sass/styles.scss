@@ -61,33 +61,6 @@ header{
         }
     }
 
-    /* DarkMode */
-
-    .navBarDark{
-        background-color: #000;
-        color: #fff;
-        width: 1400px;
-        height: 75px;
-
-        .ulNavBarDark{
-            display: flex;
-        justify-content: space-evenly;
-        padding-top: 10px;
-
-        li{
-            list-style: none;
-            font-size: 30px;
-
-            a{
-                text-decoration: none;
-                color: #fff;
-            }
-        }
-        }
-
-    }
-
-
 /* Imagen Carrito NavBar */
 
     .imgCartWidget{
@@ -98,7 +71,7 @@ header{
 /* Home */ 
 
 .divHome{
-    height: 1100px;
+    height: 1170px;
     width: 1400px;
 }
 
@@ -121,23 +94,12 @@ header{
 .pHome{
     border: 1px solid #000;
     padding: 15px;
+    font-size: 20px;
 }
 
 .btnHome{
     padding-top: 35px;
     padding-left: 550px;
-}
-
-/* Home DarkMode */ 
-
-.divHomeDark{
-    background-color: #000;
-    color: #fff;
-}
-
-.btnHomeDark{
-    background-color: #fff;
-    color: #000;
 }
 
 /* ItemList */
@@ -148,18 +110,7 @@ header{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-}
-
-/* ItemList DarkMode */ 
-
-.divItemListDark{
-    width: 1400px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    background-color: #000;
-    color: #fff;
+    padding-bottom: 20px;
 }
 
 /* Item  */
@@ -189,37 +140,6 @@ header{
 .btnItem{
     background-color: #000;
     color: #fff;
-}
-
-/* Item DarkMode */
-
-.itemContainerDark{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 1px solid #000;
-    margin: 15px;
-    padding: 15px;
-    background-color: #fff;
-    color: #000;
-}
-
-.h1ItemDark{
-    font-size: 20px;
-}
-
-.imgItemDark{
-    width: 250px;
-    height: 250px;
-}
-
-.divBtnItemDark{
-    padding-bottom: 10px;
-}
-
-.btnItemDark{
-    background-color: #fff;
-    color: #000;
 }
 
 /* Footer */ 
@@ -308,6 +228,7 @@ footer{
 
 .cantidad{
     padding-left: 10px;
+    font-size: 20px;
 }
 
 .btnAgrgarProd{
@@ -333,6 +254,7 @@ footer{
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
+    padding-bottom: 30px;
 }
 
 .divColumn1{
@@ -434,20 +356,17 @@ footer{
 .divDetalle{
     text-align: center;
     padding: 50px;
-
-    h2{
-        font-size: 40px;
-    }
-
-    p{
-        font-size: 20px;
-    }
 }
 
 .ulDetalle{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    padding-left: 40px;
+
+    li{
+        font-size: 23px;
+    }
 }
 
 /* Nuestros Locales */ 
@@ -497,7 +416,8 @@ footer{
 /* Métodos de pago */ 
 
 .sectionMetodoPago{
-    height: 700px;
+    height: 550px;
+    padding-top: 20px;
 
     .containerMetodoPago{
         text-align: center;
@@ -511,8 +431,11 @@ footer{
         flex-wrap: wrap;
         justify-content: space-evenly;
     }
-}
 
+    .h1MetodoPago{
+        text-decoration: underline;
+    }
+}
 
 .sectionCardMetodoPago{
     border: 1px solid #000;
@@ -560,8 +483,8 @@ footer{
         }
 
             .imgCardMetodoPago1{
-            width: 70px;
-            height: 70px;
+            width: 80px;
+            height: 50px;
             }
         
             .imgCardMetodoPago2{
@@ -570,4 +493,46 @@ footer{
             padding-top: 10px;
             padding-bottom: 10px;
             }
+}
+
+/* Metodo de Envio */
+
+.sectionEnvio{
+        padding-top: 30px;
+        height: 1450px;
+        
+    
+    h2{
+        font-size: 30px;
+    }
+
+    h3{
+        font-size: 25px;
+        text-align: center;
+        padding-top: 60px;
+    }
+
+    h4{
+        font-size: 20px;
+    }
+
+    p{
+        font-size: 20px;
+    }
+
+    .divInicialEnvios{
+        text-align: center;
+    }
+
+    .sectionSecun{
+        padding-left: 100px;
+    }
+
+    .divEnvioSecun{
+        border-top: 1px solid #000;
+        padding-bottom: 30px;
+        padding-top: 20px;
+        background-color: rgb(236, 227, 227);
+        padding: 20px;
+    }
 }
