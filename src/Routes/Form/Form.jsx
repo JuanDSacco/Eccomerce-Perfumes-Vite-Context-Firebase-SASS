@@ -2,6 +2,7 @@ import { addDoc, collection, getFirestore } from 'firebase/firestore';
 import { useCartContext } from '../../context/CartContext';
 import { useState } from 'react';
 import Formulario from '../../components/Formulario/Formulario';
+import Swal from 'sweetalert2';
 
 const initialState = {name:'',email:'',phone:'',message:''}
 
@@ -23,13 +24,13 @@ const Form = () => {
     const finishClick = (e) => {
         e.preventDefault()
         if(form.name === '' || form.email === '' || form.telefono === ''){
-            alert('Todos los campos son requeridos')
+            Swal.fire('Todos los campos son requeridos');
         }else{
             const db = getFirestore();
             const userCollection = collection(db, 'compra')
                 addDoc(userCollection, factura)
                 .then((res) => {
-                    alert('¡Muchas gracias por su compra!')
+                    Swal.fire('¡Su compra se realizó con éxito!');
                     setId(res.id)
                     clearCart();
                     setForm(initialState);

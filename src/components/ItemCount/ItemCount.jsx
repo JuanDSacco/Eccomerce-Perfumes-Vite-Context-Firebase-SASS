@@ -1,4 +1,5 @@
-import { useState } from 'react';
+import { useState } from 'react'
+import Swal from 'sweetalert2';
 
 const ItemCount = ({onAdd, data}) => {
 
@@ -14,7 +15,7 @@ const ItemCount = ({onAdd, data}) => {
 
     const agregarProducto = () => {
         onAdd(contador);
-        alert('Se añadó al carrito');
+        Swal.fire('¡Se añadó al carrito!');
     }
 
     return(
