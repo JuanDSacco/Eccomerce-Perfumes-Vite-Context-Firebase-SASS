@@ -1111,3 +1111,120 @@ footer{
         }
     }
 }
+
+@media only screen and (max-width:414px) and (min-width:350px){
+
+    /* Header */
+
+    header{
+        height: 200px;
+
+        .h1Header{
+            font-size: 90px;
+            padding-top: 50px;
+        }
+    }
+
+    /* NavBar */
+
+    .navBar{
+        height: 100px;
+
+        a{
+            font-size: 50px;
+        }
+    }
+
+    /* Home */
+
+    .divHome{
+        height: 1750px;
+        text-align: center;
+
+        h3{
+            font-size: 55px;
+        }
+
+        p{
+            font-size: 40px;
+            border: none;
+            background-color: $colorPrincipal;
+        }
+
+        .btnHome{
+            padding: 0;
+            padding-top: 60px;
+            font-size: 35px;
+        }
+    }
+
+    /* Footer */
+
+    footer{
+        height: 410px;
+    }
+
+    .h3Footer{
+        font-size: 50px;
+    }
+
+    li{
+        font-size: 35px;
+    }
+
+    h5{
+        font-size: 30px;
+        padding-top: 40px;
+    }
+
+    /* ItemList */
+
+    .divItemList{
+
+        .itemContainer{
+
+            h1{
+                font-size: 45px;
+            }
+
+            img{
+                height: 500px;
+                width: 500px;
+            }
+
+            button{
+                font-size: 30px;
+            }
+        }
+    }
+
+    /* ItemDetail */ 
+
+    .itemDetailPrincipal{
+        height: 1200px;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        h1{
+            font-size: 50px;
+        }
+
+        img{
+            height: 500px;
+            width: 500px;
+        }
+
+        h2{
+            font-size: 50px;
+            padding-bottom: 40px;
+        }
+
+        span{
+            font-size: 45px;
+        }
+
+        button{
+            font-size: 38px;
+        }
+    }
+}
