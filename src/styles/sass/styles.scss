@@ -4,7 +4,7 @@
 
 $fuentePrincipal: 'Playfair Display', serif;
 
-/* ---------- */            //786px
+/* ---------- */           
 
 .btnGral{
     background-color: #000;
@@ -510,6 +510,7 @@ footer{
         font-size: 25px;
         text-align: center;
         padding-top: 60px;
+        padding-right: 100px;
     }
 
     h4{
@@ -529,10 +530,289 @@ footer{
     }
 
     .divEnvioSecun{
+        width: 1165px;
         border-top: 1px solid #000;
         padding-bottom: 30px;
         padding-top: 20px;
         background-color: rgb(236, 227, 227);
         padding: 20px;
+    }
+}
+
+/* Break Points */
+
+@media only screen and (max-width:992px) and (min-width:769px){
+
+    /* Home */ 
+
+    .btnHome{
+        font-size: 18px;
+    }
+
+    /* Footer */
+
+    footer{
+
+        h5{
+            font-size: 16px;
+        }
+
+        .divAboutContacto{
+            
+            li{
+                font-size: 18px;
+            }
+        }
+    }
+
+    /* ItemList */
+
+    .divItemList{
+
+        button{
+            font-size: 18px;
+        }
+    }
+
+    /* ItemDetail */ 
+
+    .itemDetailPrincipal{
+
+        h2{
+            font-size: 28px;
+        }
+
+        button{
+            font-size: 18px;
+        }
+
+        span{
+            font-size: 22px;
+        }
+    }
+
+    /* MapCart */
+
+    .cartContainer{
+
+        h3{
+            font-size: 21px;
+        }
+
+        button{
+            font-size: 18px;
+        }
+    }
+
+    /* Formulario */
+
+    .sectionFormulario{
+
+        button{
+            font-size: 18px;
+        }
+    }
+
+    /* CartVacio */ 
+
+    .divCarritoVacio{
+
+        button{
+            font-size: 18px;
+        }
+    }
+
+    /* Metodos de pago */ 
+
+    .sectionMetodoPago{
+
+        .sectionCardMetodoPago{
+
+            .h5MetodoPago{
+                font-size: 18px;
+            }
+        }
+        
+        h5{
+            font-size: 16px;
+        }
+    }
+}
+
+@media only screen and (max-width:768px) and (min-width:579px){
+
+    /* Home */
+
+    .divHome{
+        height: 1400px;
+
+        h3{
+            font-size: 40px;
+        }
+
+        p{
+            font-size: 24px;
+        }
+
+        button{
+            font-size: 20px;
+        }
+    }
+
+    /* Footer */ 
+
+    footer{
+
+        height: 250px;
+
+        li{
+            font-size: 21px;
+        }
+
+        h5{
+            font-size: 16px;
+        }
+    }
+
+    /* ItemList */
+
+    .itemContainer{
+
+        img{
+            height: 320px;
+            width: 320px;
+        }
+
+        h1{
+            font-size: 30px;
+        }
+
+        button{
+            font-size: 20px;
+        }
+    }
+
+    /* ItemDetail */
+
+    .itemDetailPrincipal{
+
+        h1{
+            font-size: 40px;
+        }
+
+        h2{
+            font-size: 35px;
+        }
+
+        span{
+            font-size: 30px;
+        }
+
+        button{
+            font-size: 23px;
+        }
+
+        img{
+            width: 320px;
+            height: 320px;
+        }
+    }
+
+    /* MapCart */
+
+    .cartContainer{
+        
+        h1{
+            font-size: 40px;
+        }
+
+        h3{
+            font-size: 30px;
+        }
+
+        button{
+            font-size: 25px;
+        }
+
+        img{
+            height: 320px;
+            width: 320px;
+        }
+    }
+
+    /* Formulario */ 
+
+    .sectionFormulario{
+
+        height: 750px;
+
+        h2{
+            font-size: 30px;
+        }
+
+        label{
+            font-size: 25px;
+        }
+
+        h4{
+            font-size: 20px;
+        }
+
+        button{
+            font-size: 22px;
+        }
+    }
+
+    /* Carrito Vacio */ 
+
+    .divCarritoVacio{
+        
+        button{
+            font-size: 24px;
+        }
+    }
+
+    /* Metodos de pago */
+
+    .sectionMetodoPago{
+
+        .h5MetodoPago{
+            font-size: 20px;
+        }
+
+        h5{
+            font-size: 20px;
+        }
+
+        .sectionCardMetodoPago{
+
+            .imgCardMetodoPago1{
+                width: 60px;
+                height: 40px;
+            }
+        }
+    }
+
+    /* Metodos de envio */
+
+    .sectionEnvio{
+
+        height: 1590px;
+
+        h2{
+            font-size: 40px;
+        }
+
+        h3{
+            font-size: 33px;
+        }
+
+        h4{
+            font-size: 23px;
+        }
+
+        p{
+            font-size: 24px;
+        }
     }
 }
