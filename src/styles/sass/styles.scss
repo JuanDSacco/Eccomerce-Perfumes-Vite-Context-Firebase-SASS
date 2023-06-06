@@ -3,6 +3,7 @@
 /* Variables */ 
 
 $fuentePrincipal: 'Playfair Display', serif;
+$colorPrincipal: rgb(236, 227, 227);
 
 /* ---------- */           
 
@@ -27,7 +28,7 @@ header{
     width: 1400px;
     height: 140px;
     margin: 0;
-    background-color: rgb(236, 227, 227);
+    background-color: $colorPrincipal;
 
     .h1Header{
         font-size: 60px;
@@ -146,7 +147,7 @@ header{
 
 footer{
     border-top: 1px solid #000; 
-    background-color: rgb(236, 227, 227);
+    background-color: $colorPrincipal;
     width: 1400px;
     height: 230px;
 }
@@ -390,7 +391,7 @@ footer{
     width: 550px;
     margin-left: 30px;
     margin-bottom: 30px;
-    background-color: rgb(236, 227, 227);
+    background-color: $colorPrincipal;
 
     .divLocales1{
         border-bottom: 1px solid #000;
@@ -445,7 +446,7 @@ footer{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgb(236, 227, 227);
+    background-color: $colorPrincipal;
     
     .divSecundario{
         text-align: center;
@@ -534,7 +535,7 @@ footer{
         border-top: 1px solid #000;
         padding-bottom: 30px;
         padding-top: 20px;
-        background-color: rgb(236, 227, 227);
+        background-color: $colorPrincipal;
         padding: 20px;
     }
 }
@@ -639,7 +640,7 @@ footer{
     }
 }
 
-@media only screen and (max-width:768px) and (min-width:579px){
+@media only screen and (max-width:768px) and (min-width:577px){
 
     /* Home */
 
@@ -813,6 +814,300 @@ footer{
 
         p{
             font-size: 24px;
+        }
+    }
+}
+
+@media only screen and (max-width:576px) and (min-width: 415px){
+
+    /* Header */ 
+
+    header{
+
+        height: 190px;
+
+        .h1Header{
+            font-size: 80px;
+            padding-top: 50px;
+        }
+    }
+
+    /* NavBar */ 
+
+    .navBar{
+        height: 120px;
+
+        .ulNavBar{
+            padding-top: 23px;
+        }
+
+        a{
+            font-size: 45px;
+        }
+    }
+
+    /* Home */ 
+
+    .divHome{
+        height: 1550px;
+
+        .divHomeSecundario{
+            text-align: center;
+            padding: 0;
+            
+            h3{
+                font-size: 45px;
+            }
+
+            p{
+                font-size: 30px;
+            }
+
+            .btnHome{
+                padding: 0;
+                padding-top: 50px;
+                font-size: 26px;
+            }
+        }
+    }
+
+    /* Footer */ 
+
+    footer{
+        height: 310px;
+
+        .h3Footer{
+            font-size: 45px;
+        }
+
+        li{
+            font-size: 26px;
+        }
+
+        h5{
+            font-size: 22px;
+        }
+    }
+
+    /* ItemList */
+
+    .divItemList{
+
+        h1{
+            font-size: 40px;
+        }
+
+        img{
+            height: 450px;
+            width: 450px;
+        }
+
+        button{
+            font-size: 25px;
+        }
+    }
+
+    /* ItemDetail */
+
+    .itemDetailPrincipal{
+        height: 700px;
+        justify-content: space-evenly;
+
+        h1{
+            font-size: 40px;
+        }
+
+        h2{
+            font-size: 35px;
+        }
+
+        span{
+            font-size: 30px;
+        }
+
+        img{
+            height: 450px;
+            width: 450px;
+        }
+
+        button{
+            font-size: 24px;
+        }
+    }
+
+    /* MapCart */ 
+
+    .cartContainer{
+
+        h1{
+            font-size: 40px;
+        }
+
+        h2{
+            font-size: 60px;
+        }
+
+        h3{
+            font-size: 35px;
+        }
+
+        img{
+            height: 400px;
+            width: 400px;
+        }
+
+        button{
+            font-size: 26px;
+        }
+    }
+
+    /* Carrito Vacio */
+
+    .divCarritoVacio{
+        height: 210px;
+
+        .h2CarritoVacio{
+            font-size: 60px;
+        }
+
+        button{
+            font-size: 26px;
+        }
+    }
+
+    /* Formulario */
+
+    .sectionFormulario{
+
+        height: 870px;
+
+        h2{
+            font-size: 40px;
+        }
+
+        label{
+            font-size: 30px;
+        }
+
+        input{
+            font-size: 30px;
+        }
+
+        button{
+            font-size: 26px;
+        }
+
+        h4{
+            font-size: 24px;
+        }
+    }
+
+    /* Detalles */
+
+    .divDetalle{
+
+        padding: 100px;
+
+        ul{
+            background-color: $colorPrincipal;
+        }
+
+        li{
+            font-size: 30px;
+        }
+    }
+
+    /* Nuestros Locales */ 
+
+    .containerLocales{
+        align-content: space-evenly;
+
+        .sectionLocales{
+            height: 400px;
+            width: 600px;
+            margin-left: 10px;
+        }
+
+        .h2Locales{
+            font-size: 50px;
+        }
+
+        .h3Locales{
+            font-size: 40px;
+        }
+
+        .h4Locales{
+            font-size: 30px;
+            padding: 20px;
+        }
+    }
+
+    /* Metodos Pago */ 
+
+    .sectionMetodoPago{
+        height: 1530px;
+    }
+
+    .divSecuMetodoPago{
+
+        .sectionCardMetodoPago{
+            width: 600px;
+            height: 700px;
+            margin-bottom: 60px;
+            justify-content: space-evenly;
+
+            .imgCardMetodoPago1{
+                width: 100px;
+                height: 60px;
+            }
+
+            .imgCardMetodoPago2{
+                width: 100px;
+                height: 60px;
+            }
+
+            .h2MetodoPago{
+                font-size: 80px;
+            }
+
+            .h3MetodoPago{
+                font-size: 30px;
+            }
+
+            .h4MetodoPago{
+                font-size: 24px;
+            }
+
+            .h5MetodoPago{
+                font-size: 25px;
+            }
+
+            h5{
+                font-size: 22px;
+            }
+        }
+    }
+
+    /* Metodo Envio */
+
+    .sectionEnvio{
+
+        height: 1850px;
+
+        h2{
+            font-size: 45px;
+        }
+
+        h3{
+            font-size: 35px;
+        }
+
+        h4{
+            font-size: 27px;
+        }
+
+        p{
+            font-size: 27px;
         }
     }
 }
