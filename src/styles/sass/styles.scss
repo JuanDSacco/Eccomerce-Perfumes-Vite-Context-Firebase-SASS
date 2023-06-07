@@ -1227,4 +1227,191 @@ footer{
             font-size: 38px;
         }
     }
+
+    /* MapCart */
+
+    .cartContainer{
+
+        h1{
+            font-size: 60px;
+        }
+
+        img{
+            height: 550px;
+            width: 550px;
+        }
+
+        h2{
+            font-size: 50px;
+        }
+
+        h3{
+            font-size: 45px;
+        }
+
+        button{
+            font-size: 45px;
+        }
+    }
+
+    /* Formulario */
+
+    .sectionFormulario{
+
+        height: 1450px;
+
+        h2{
+            font-size: 60px;
+        }
+
+        label{
+            font-size: 50px;
+        }
+
+        input{
+            font-size: 50px;
+        }
+
+        textarea{
+            font-size: 50px;
+        }
+
+        .divBtnFrom{
+            padding-top: 50px;
+        }
+
+        button{
+            font-size: 40px;
+        }
+
+        h4{
+            font-size: 40px;
+        }
+    }
+
+    /* Detalles */ 
+
+    .divDetalle{
+
+        height: 1100px;
+
+        ul{
+            padding-top: 130px;
+        }
+
+        li{
+            font-size: 50px;
+        }
+    }
+
+    /* Carrito Vacio */
+
+    .divCarritoVacio{
+
+        height: 300px;
+
+        .h2CarritoVacio{
+            font-size: 70px;
+            padding-top: 20px;
+        }
+
+        button{
+            font-size: 40px;
+        }
+    }
+
+    /* Nuestros Locales */
+
+    .containerLocales{
+
+        .sectionLocales{
+            width: 900px;
+            height: 500px;
+        }
+
+        .h2Locales{
+            font-size: 70px;
+        }
+
+        .h3Locales{
+            font-size: 55px;
+        }
+
+        .h4Locales{
+            font-size: 40px;
+        }
+    }
+
+    /* Metodos de Pago */
+
+    .sectionMetodoPago{
+
+        height: 2900px;
+        padding-top: 60px;
+
+        .sectionCardMetodoPago{
+            width: 700px;
+            height: 900px;
+            margin-bottom: 60px;
+
+            .imgCardMetodoPago1{
+                width: 130px;
+                height: 90px;
+            }
+
+            .imgCardMetodoPago2{
+                width: 130px;
+                height: 80px;
+            }
+
+            .h2MetodoPago{
+                font-size: 100px;
+            }
+
+            .h3MetodoPago{
+                font-size: 50px;
+            }
+
+            .h4MetodoPago{
+                font-size: 40px;
+            }
+
+            .h5MetodoPago{
+                font-size: 35px;
+            }
+
+            h5{
+                font-size: 35px;
+            }
+        }
+    }
+
+    /* Metodo Envio */ 
+
+    .sectionEnvio{
+        height: 3550px;
+
+        .divInicialEnvios{
+            p{
+                padding-left: 25px;
+                padding-right: 25px;
+            }
+        }
+
+        h2{
+            font-size: 70px;
+        }
+
+        h3{
+            font-size: 55px;
+        }
+
+        h4{
+            font-size: 40px;
+        }
+
+        p{
+            font-size: 40px;
+        }
+    }
 }
