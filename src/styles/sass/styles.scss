@@ -1415,3 +1415,325 @@ footer{
         }
     }
 }
+
+/* 349 281 */
+
+@media only screen and (max-width:349px){
+
+    /* Header */ 
+
+    header{
+        height: 300px;
+
+        .h1Header{
+            font-size: 120px;
+            padding-top: 80px;
+        }
+    }
+
+    /* NavBar */
+
+    .navBar{
+        height: 160px;
+
+        li{
+            font-size: 70px;
+            padding-top: 10px;
+        }
+
+        .imgCartWidget{
+            height: 70px;
+            width: 70px;
+        }
+    }
+
+    /* Home */ 
+
+    .divHome{
+        height: 2400px;
+        text-align: center;
+
+        h3{
+            font-size: 70px;
+        }
+
+        p{
+            font-size: 50px;
+            border: none;
+            background-color: $colorPrincipal;
+            padding: 30px;
+        }
+
+        .btnHome{
+            padding-top: 100px;
+            padding-left: 0;
+        }
+
+        button{
+            font-size: 45px;
+        }
+    }
+
+    /* Footer */
+
+    footer{
+        height: 950px;
+
+
+        text-align: center;
+
+        .divAboutContacto{
+            padding-top: 20px;
+            flex-direction: column;
+        }
+
+        .h3Footer{
+            font-size: 70px;
+        }
+
+        h5{
+            font-size: 40px;
+            padding-top: 70px;
+        }
+
+        li{
+            font-size: 50px;
+        }
+    }
+
+    /* ItemList */
+
+    .divItemList{
+
+        .itemContainer{
+
+            margin: 50px;
+
+            h1{
+                font-size: 80px;
+            }
+
+            img{
+                width: 800px;
+                height: 800px;
+            }
+
+            button{
+                font-size: 50px;
+            }
+        }
+    }
+
+    /* ItemDetail */
+
+    .itemDetailPrincipal{
+        flex-direction: column;
+        height: 1700px;
+        justify-content: space-evenly;
+
+        h1{
+            font-size: 80px;
+        }
+
+        h2{
+            font-size: 65px;
+            padding-bottom: 30px;
+        }
+
+        span{
+            font-size: 60px;
+        }
+
+        button{
+            font-size: 50px;
+        }
+
+        img{
+            width: 800px;
+            height: 800px;
+        }
+    }
+
+    /* MapCart */
+
+    .cartContainer{
+
+        .divColumn1{
+            flex-direction: column;
+        }
+
+        .divColumn2{
+            padding: 0;
+        }
+
+        h1{
+            font-size: 80px;
+        }
+
+        img{
+            width: 800px;
+            height: 800px;
+        }
+
+        h2{
+            font-size: 65px;
+        }
+
+        h3{
+            font-size: 60px;
+        }
+
+        button{
+            font-size: 50px;
+        }
+    }
+
+    /* Carrito Vacio */
+
+    .divCarritoVacio{
+        height: 400px;
+
+        .h2CarritoVacio{
+            font-size: 80px;
+            padding-top: 30px;
+        }
+
+        button{
+            font-size: 50px;
+        }
+    }
+
+    /* Formulario */
+
+    .sectionFormulario{
+        height: 1600px;
+
+        h2{
+            font-size: 70px;
+        }
+
+        label{
+            font-size: 60px;
+        }
+
+        input{
+            font-size: 60px;
+        }
+
+        textarea{
+            font-size: 60px;
+        }
+
+        button{
+            font-size: 50px;
+        }
+
+        h4{
+            font-size: 40px;
+        }
+    }
+
+    /* Detalles */
+
+    .divDetalle{
+        height: 850px;
+
+        li{
+            font-size: 50px;
+        }
+    }
+
+    /* Locales */
+
+    .containerLocales{
+        height: 3300px;
+        
+
+        .sectionLocales{
+            width: 800px;
+            height: 500px;
+            padding-left: 40px;
+            padding-right: 40px;
+
+            h2{
+                font-size: 80px;
+            }
+
+            h3{
+                font-size: 65px;
+            }
+
+            h4{
+                font-size: 50px;
+            }
+        }
+    }
+
+    /* Metodos de pago */
+
+    .sectionMetodoPago{
+        height: 2770px;
+
+        .sectionCardMetodoPago{
+            height: 800px;
+            width: 700px;
+            margin: 50px;
+
+            .imgCardMetodoPago1{
+                width: 130px;
+                height: 80px;
+            }
+
+            .imgCardMetodoPago2{
+                width: 130px;
+                height: 80px;
+            }
+
+            h2{
+                font-size: 100px;
+            }
+
+            h3{
+                font-size: 60px;
+            }
+
+            h4{
+                font-size: 40px;
+            }
+
+            .h5MetodoPago{
+                font-size: 40px;
+            }
+
+            h5{
+                font-size: 40px;
+            }
+        }
+    }
+
+    /* Metodo envio */
+
+    .sectionEnvio{
+        height: 4050px;
+
+        .divInicialEnvios{
+            padding: 70px;
+        }
+
+        h2{
+            font-size: 80px;
+        }
+
+        h3{
+            font-size: 60px;
+        }
+
+        h4{
+            font-size: 40px;
+        }
+
+        p{
+            font-size: 43px;
+        }
+    }
+}
