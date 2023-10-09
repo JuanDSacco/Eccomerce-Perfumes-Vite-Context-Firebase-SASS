@@ -154,6 +154,11 @@ footer{
 
 .divAboutContacto{
     display: flex;
+    justify-content: space-evenly;
+
+    .divAbout{
+        text-align: center;
+    }
 }
 
 .h3Footer{
@@ -209,6 +214,20 @@ footer{
     justify-content: space-around;
     align-items: center;
     height: 400px;
+
+    .cantidad{
+        padding: 0;
+        padding-right: 10px;
+    }
+
+    a{
+        padding-right: 10px;
+    }
+    
+    .btnAumenoDecrement{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
 }
 
 .divCardDetail{
@@ -768,6 +787,11 @@ footer{
             width: 320px;
             height: 320px;
         }
+
+        .btnGral{
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
     }
 
     /* MapCart */
@@ -789,6 +813,13 @@ footer{
         img{
             height: 320px;
             width: 320px;
+        }
+
+        .divColumn1{
+            
+            .divColumn2{
+                padding-left: 100px;
+            }
         }
     }
 
@@ -1533,26 +1564,28 @@ footer{
     /* Header */ 
 
     header{
-        height: 300px;
+        height: 100px;
 
         .h1Header{
-            font-size: 90px;
+            font-size: 50px;
+            text-align: center;
             padding: 0;
+            padding-top: 15px;
         }
     }
 
     /* NavBar */
 
     .navBar{
-        height: 500px;
+        height: 360px;
         
         .ulNavBar{
-
+            align-items: center;
             flex-direction: column;
         }
-
+        
         li{
-            font-size: 70px;
+            font-size: 45px;
             padding-top: 10px;
         }
 
@@ -1565,11 +1598,16 @@ footer{
     /* Home */ 
 
     .divHome{
-        height: 3000px;
+        height: 2570px;
         text-align: center;
 
         h3{
-            font-size: 70px;
+            font-size: 40px;
+            padding: 0;
+        }
+
+        .divHomeSecundario{
+            padding-left: 0;
         }
 
         .divPHome{
@@ -1578,28 +1616,27 @@ footer{
         }
 
         p{
-            font-size: 50px;
+            font-size: 30px;
             border: none;
             background-color: $colorPrincipal;
             padding: 30px;
         }
 
         .btnHome{
-            padding-top: 100px;
+            padding-top: 35px;
             padding-left: 0;
         }
 
         button{
-            font-size: 45px;
+            font-size: 35px;
         }
     }
 
     /* Footer */
 
     footer{
-        height: 950px;
-
-
+        height: 800px;
+        width: 100%;
         text-align: center;
 
         .divAboutContacto{
@@ -1608,16 +1645,17 @@ footer{
         }
 
         .h3Footer{
-            font-size: 70px;
+            font-size: 40px;
+            text-decoration: underline;
         }
 
         h5{
-            font-size: 40px;
-            padding-top: 70px;
+            font-size: 30px;
+            padding-top: 30px;
         }
 
         li{
-            font-size: 50px;
+            font-size: 30px;
         }
     }
 

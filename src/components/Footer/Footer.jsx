@@ -7,7 +7,7 @@ const Footer = () => {
     return (
         <footer>
             <div className='divAboutContacto'>
-                <div>
+                <div className='divAbout'>
                     <h3 className='h3Footer'>About La Parfumerie</h3>
                     <ul className='ulPrincipalFooter'>
                         <Link to={`/nuestros-locales`}><li>Nuestros locales</li></Link>
