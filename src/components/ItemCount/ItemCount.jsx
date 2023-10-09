@@ -22,9 +22,9 @@ const ItemCount = ({onAdd, data}) => {
         <>
             <div>
                 <h2>Precio ${data.precio}</h2>
+                <span className='cantidad'>Cantidad: {contador}</span>
                 <button className='btnAumenoDecrement' onClick={botonDisminuir}> - </button>
                 <button className='btnAumenoDecrement' onClick={botonAumento}> + </button>
-                <span className='cantidad'>Cantidad: {contador}</span>
             </div>
             <div className='divAñadir'>
                 <button className='btnAgrgarProd' onClick={agregarProducto}> Agregar producto </button>

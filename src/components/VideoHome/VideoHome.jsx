@@ -6,7 +6,7 @@ const VideoPlayer = () => {
 
     const playerOptions = {
         height: '780',
-        width: '1400',
+        width: '100%',
         playerVars: {
         autoplay: 1,
         controls:0,

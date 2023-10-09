@@ -12,11 +12,14 @@ const MapCart = ({cart, removeProduct, eliminarPorUnidad, clearCart, totalPrice}
                         <div>
                         <Card data={data}/>
                         </div>
-                        <div className='divColumn2'>                                       
+                        <div className='divColumn2'>
                             <h3>Unidades: {data.cantidad}</h3> 
                             <button className='btnMapCart' disable={data.cantidad <= 0 && removeProduct(data.id)} onClick={() => eliminarPorUnidad (data.id)}>Eliminar Unidad -</button>
                             <div className='divBtnClear'>
                                 <Button name='Vaciar carrito' onClick={clearCart}/>
+                            </div>
+                            <div>
+                                <Link to={'/productos'}><button className='btnMapCart'>Seguir Comprando</button></Link>
                             </div>
                         </div>
                     </div>

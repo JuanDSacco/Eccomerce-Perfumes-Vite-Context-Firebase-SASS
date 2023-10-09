@@ -19,7 +19,7 @@ const Home = () => {
                     un suplemento de frescura: la vivacidaddel limón recubierta por un todopoderoso incienso. Llega a <br/>
                     continuaciónun impulso profundamente sensual: la redondez de la tonka secundada poruna vainilla <br/>
                     intensa. El combarte entre un frescor contundente y una intensidad magnética. Fuerte, cautivador... <br/>
-                    Nada puede detenerlo.Paco Rabanne nos descubre un nuevo oriental fresco dotado de vigor extremo
+                    Nada puede detenerlo. Paco Rabanne nos descubre un nuevo oriental fresco dotado de vigor extremo
                     </p>
                 </div>
                 <div className='btnHome'>
