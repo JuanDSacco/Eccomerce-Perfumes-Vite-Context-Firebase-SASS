@@ -1005,8 +1005,8 @@ footer{
     /* ItemDetail */
 
     .itemDetailPrincipal{
-        height: 700px;
-        justify-content: space-evenly;
+        height: 950px;
+        flex-direction: column;
 
         h1{
             font-size: 40px;
@@ -1034,6 +1034,15 @@ footer{
 
     .cartContainer{
 
+        .divColumn1{
+            flex-direction: column;
+            padding: 0;
+            
+            .divColumn2{
+                padding: 0;
+            }
+        }
+
         h1{
             font-size: 40px;
         }
@@ -1059,7 +1068,8 @@ footer{
     /* Carrito Vacio */
 
     .divCarritoVacio{
-        height: 210px;
+        height: 300px;
+        padding: 0;
 
         .h2CarritoVacio{
             font-size: 60px;
@@ -1074,7 +1084,8 @@ footer{
 
     .sectionFormulario{
 
-        height: 870px;
+        height: 850px;
+        padding-top: 0;
 
         h2{
             font-size: 40px;
@@ -1101,7 +1112,7 @@ footer{
 
     .divDetalle{
 
-        padding: 100px;
+        padding-top: 0;
 
         ul{
             background-color: $colorPrincipal;
