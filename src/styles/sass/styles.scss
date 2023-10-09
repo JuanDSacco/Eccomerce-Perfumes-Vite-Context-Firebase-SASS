@@ -571,6 +571,14 @@ footer{
     .btnHome{
         padding-left: 700px;
     }
+
+    .sectionMetodoPago{
+        height: 1050px;
+
+        .sectionCardMetodoPago{
+            margin-bottom: 20px;
+        }
+    }
 }
 
 @media only screen and (max-width:992px) and (min-width:769px){
@@ -674,7 +682,11 @@ footer{
 
     .sectionMetodoPago{
 
+        height: 1050px;
+
         .sectionCardMetodoPago{
+
+            margin-bottom: 20px;
 
             .h5MetodoPago{
                 font-size: 18px;
@@ -1149,7 +1161,8 @@ footer{
     /* Metodos Pago */ 
 
     .sectionMetodoPago{
-        height: 1530px;
+        height: 2280px;
+        padding-top: 0;
     }
 
     .divSecuMetodoPago{
@@ -1504,9 +1517,8 @@ footer{
     /* Metodos de Pago */
 
     .sectionMetodoPago{
-
         height: 2900px;
-        padding-top: 60px;
+        padding-top: 10px;
 
         .sectionCardMetodoPago{
             width: 700px;
@@ -1514,29 +1526,29 @@ footer{
             margin-bottom: 60px;
 
             .imgCardMetodoPago1{
-                width: 130px;
-                height: 90px;
+                width: 100px;
+                height: 65px;
             }
 
             .imgCardMetodoPago2{
-                width: 130px;
-                height: 80px;
+                width: 100px;
+                height: 60px;
             }
 
             .h2MetodoPago{
-                font-size: 100px;
+                font-size: 70px;
             }
 
             .h3MetodoPago{
-                font-size: 50px;
+                font-size: 35px;
             }
 
             .h4MetodoPago{
-                font-size: 40px;
+                font-size: 30px;
             }
 
             .h5MetodoPago{
-                font-size: 35px;
+                font-size: 30px;
             }
 
             h5{
@@ -1860,41 +1872,41 @@ footer{
     /* Metodos de pago */
 
     .sectionMetodoPago{
-        height: 2770px;
+        height: 2470px;
 
         .sectionCardMetodoPago{
             height: 800px;
             width: 700px;
-            margin: 50px;
+            margin-bottom: 20px;
 
             .imgCardMetodoPago1{
-                width: 130px;
-                height: 80px;
+                width: 100px;
+                height: 60px;
             }
 
             .imgCardMetodoPago2{
-                width: 130px;
-                height: 80px;
+                width: 100px;
+                height: 60px;
             }
 
             h2{
-                font-size: 100px;
-            }
-
-            h3{
                 font-size: 60px;
             }
 
-            h4{
+            h3{
                 font-size: 40px;
+            }
+
+            h4{
+                font-size: 25px;
             }
 
             .h5MetodoPago{
-                font-size: 40px;
+                font-size: 25px;
             }
 
             h5{
-                font-size: 40px;
+                font-size: 25px;
             }
         }
     }
