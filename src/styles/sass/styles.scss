@@ -1300,8 +1300,7 @@ footer{
 
             .divContacto{
                 .ulPrincipalFooter{
-                    padding-left: 20px;
-                    padding-right: 20px;
+                    
                 }
             }
         }
@@ -1340,8 +1339,8 @@ footer{
             }
 
             img{
-                height: 500px;
-                width: 500px;
+                height: 350px;
+                width: 350px;
             }
 
             button{
@@ -1357,26 +1356,32 @@ footer{
         flex-direction: column;
         justify-content: space-evenly;
 
+        div{
+            text-align: center;
+        }
+
         h1{
             font-size: 50px;
         }
 
         img{
-            height: 500px;
-            width: 500px;
+            height: 350px;
+            width: 350px;
         }
 
         h2{
-            font-size: 50px;
+            font-size: 40px;
             padding-bottom: 40px;
         }
 
         span{
-            font-size: 45px;
+            font-size: 35px;
         }
 
         button{
-            font-size: 38px;
+            font-size: 30px;
+            margin-top: 5px;
+            margin-bottom: 5px;
         }
     }
 
@@ -1384,25 +1389,33 @@ footer{
 
     .cartContainer{
 
+        .divColumn1{
+            flex-direction: column;
+
+            .divColumn2{
+                padding: 0;
+            }
+        }
+
         h1{
-            font-size: 60px;
-        }
-
-        img{
-            height: 550px;
-            width: 550px;
-        }
-
-        h2{
             font-size: 50px;
         }
 
+        img{
+            height: 350px;
+            width: 350px;
+        }
+
+        h2{
+            font-size: 40px;
+        }
+
         h3{
-            font-size: 45px;
+            font-size: 35px;
         }
 
         button{
-            font-size: 45px;
+            font-size: 35px;
         }
     }
 
@@ -1410,22 +1423,24 @@ footer{
 
     .sectionFormulario{
 
-        height: 1450px;
+        height: 1100px;
+        padding-top: 20px;
 
         h2{
-            font-size: 60px;
+            font-size: 40px;
         }
 
         label{
-            font-size: 50px;
+            font-size: 40px;
         }
 
         input{
-            font-size: 50px;
+            font-size: 30px;
         }
 
         textarea{
-            font-size: 50px;
+            font-size: 25px;
+            
         }
 
         .divBtnFrom{
@@ -1433,11 +1448,11 @@ footer{
         }
 
         button{
-            font-size: 40px;
+            font-size: 35px;
         }
 
         h4{
-            font-size: 40px;
+            font-size: 30px;
         }
     }
 
@@ -1445,14 +1460,14 @@ footer{
 
     .divDetalle{
 
-        height: 1100px;
+        height: 1200px;
 
         ul{
-            padding-top: 130px;
+            padding-top: 20px;
         }
 
         li{
-            font-size: 50px;
+            font-size: 30px;
         }
     }
 
@@ -1463,12 +1478,12 @@ footer{
         height: 300px;
 
         .h2CarritoVacio{
-            font-size: 70px;
+            font-size: 50px;
             padding-top: 20px;
         }
 
         button{
-            font-size: 40px;
+            font-size: 30px;
         }
     }
 
